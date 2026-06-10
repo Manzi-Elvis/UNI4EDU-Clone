@@ -4,9 +4,59 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Uni4Edu</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
       <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-      
+<body class="bg-white text-slate-900">
+      <section>
+            <nav class="flex items-center justify-between">
+                  <div class="m-6">
+                        <img src="./assets/logo.svg" alt="">
+                  </div>
+                  <div class="flex justify-center items-center m-6 gap-5">
+                        <img class="h-5 w-5" src="./assets/search.svg" alt="">
+                        <div class="flex justify-center items-center gap-1">
+                              <img class="h-5 w-5" src="./assets/united-kingdom.png" alt="">
+                              <p>EN</p>
+                              <svg xmlns="http://www.w3.org/2000/svg"fill="none"viewBox="0 0 24 24"stroke-width="1.5"stroke="currentColor"class="w-4 h-4"><path stroke-linecap="round"stroke-linejoin="round"d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+                        </div>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg"fill="none"viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"class="w-6 h-6"><path stroke-linecap="round"stroke-linejoin="round"d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg></a>
+                  </div>
+            </nav>
+            <div class="relative">
+                  <img class="w-full h-[500px] md:h-[700px] object-cover" src="./assets/homeMain.jpeg" alt="">
+                  <h1 class="absolute top-5 left-5 max-w-4xl text-white text-3xl md:text-5xl font-bold leading-tight">Find Your Perfect<br/> University, Language <br/>School or Summer Schools <br/> Program</h1>
+                  <p class=" absolute font-normal text-white top-[220px] left-5 right-5">Uni4edu simplifies the journey to studying abroad by bringing top institutions worldwide into a single digital platform. Manage your entire process—from school selection to application—directly within the system and achieve your academic and career goals online.</p>
+                  <button class="absolute top-[390px] left-5 right-5 flex items-center justify-center text-white bg-[#4EC9DF] w-100 py-[8px] rounded-[10px] text-[13px] font-medium">Explore Programs</button>
+                  <button class="absolute top-[435px] left-5 right-5 flex items-center justify-center border-solid border-10px border-[#4EC9DF] bg-white text-[#4EC9DF] w-100 py-[8px] rounded-[10px] text-[13px] font-medium">Get Free Advice</button>
+            </div>
+      </section>
+      <section class="px-4 py-6 bg-white">
+            <div class="w-full max-w-sm mx-auto bg-white border border-gray-200 rounded-xl shadow-sm p-2">
+            <div class="flex items-center gap-2 overflow-hidden px-1 pb-2 text-[11px] text-gray-600">
+                  <label class="flex items-center gap-1 min-w-0">
+                        <input type="radio" name="program" checked class="accent-blue-600 w-3.5 h-3.5">
+                        <span class="truncate">University Pr...</span>
+                  </label>
+
+                  <label class="flex items-center gap-1 min-w-0">
+                        <input type="radio" name="program" class="accent-blue-600 w-3.5 h-3.5">
+                        <span class="truncate">Language Sc...</span>
+                  </label>
+
+                  <label class="flex items-center gap-1 min-w-0">
+                        <input type="radio" name="program" class="accent-blue-600 w-3.5 h-3.5">
+                        <span class="truncate">Summer Sch...</span>
+                  </label>
+            </div>
+
+            <div class="flex items-center border border-gray-200 rounded-lg overflow-hidden bg-white">
+                  <div class="flex items-center gap-2 flex-1 px-3 py-3 text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-4 h-4 text-gray-700"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M7 12h10M10 18h4" /></svg><input type="text" placeholder="Search"class="w-full outline-none text-sm placeholder:text-gray-400">
+                  </div>
+                  <button class="m-1 bg-blue-600 text-white w-11 h-11 rounded-lg flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke-width="2" stroke="currentColor"  class="w-5 h-5"><path stroke-linecap="round"  stroke-linejoin="round"  d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" /></svg></button>
+            </div>
+           </div>
+      </section>
 </body>
 </html>
